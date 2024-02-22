@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Punhani | Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/4aa1ba7fb7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Logo 2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li class=""><button class="contactBtn"><a href="#contact">Contact Me</a></button></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Tushar Punhani</span></h1>
+            <p>Photo Editor | Video Editor</p>
+        </div>
+    </div>
+</div>
+<!-- ----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="DP sq.jpg"> 
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Are you looking for a skilled and creative Video Editor/Photo Editor to  bring your vision to life?<br>
+                    Hi! My name is Tushar Punhani. I am a professional Video/Photo Editor and content creator. As a video/photo editor, I have honed my skills over the years. I understand the power of visual storytelling and know how to create engaging and captivating videos and photos that leave a lasting impact on your audience. Whether you're a content creator, business owner, or filmmaker, I'm dedicated to bringing your vision to life.
+                    Contact me today to discuss your project and get started on your video editing journey.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Photoshop</span><br>Poster, Thumbnail, Concert</li>
+                            <li><span>Illustrator</span><br>Logo, Vector Designes</li>
+                            <li><span>Lightroom</span><br>Color Grading, Color Correction</li>
+                            <li><span>Premiere Pro</span><br>Youtube Videos, Montage</li>
+                            <li><span>After Effects</span><br>Animations</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Experience</span><br><br><b>2+ Years Experience In Editing</b><br>I have over 2 Year of experience in photo editing and have developed a diverse skill set that enables me to deliver high-quality results. I am passionate about photo editing and dedicated to providing outstanding results that meet or exceed my clients' expectations. I continuously stay updated with the latest trends and techniques in the industry to deliver cutting-edge editing solutions. I am confident that my experience and skills make me a reliable choice for your photo editing needs.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------services------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-images"></i>
+                <h1>Thumbnail Design</h1>
+                <p>Create captivating <b>YouTube Thumbnail</b> that not only grab the audience's attention but also infuse a dramatic flair, compelling viewers to click and engage.</p>
+                <a href="#contact">Contact Me For More Information</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-palette"></i>
+                <h1>Poster Design</h1>
+                <p>Design a captivating <b>Poster</b>  that sets your film or song apart, drawing viewers in with irresistible allure.</p>
+                <a href="#contact">Contact Me For More Information</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-joomla"></i>
+                <h1>Logo Design</h1>
+                <p>Craft a captivating <b>Logo</b> for your company that entices people to engage with your product or service.</p>
+                <a href="#contact">Contact Me For More Information</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-youtube"></i>
+                <h1>Youtube Video Editing</h1>
+                <p><b>Youtube Video Editing</b> by seamlessly incorporating the latest trending audio, video, and memes, alongside captivating motion graphics, suitable for any genre, whether it's gaming or any other content.</p>
+                <a href="#contact">Contact Me For More Information</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h1>Music Video Editing</h1>
+                <p>Elevate your <b>Music Videos</b> with expert editing, blending captivating visuals and dynamic effects for an unforgettable viewing experience.</p>
+                <a href="#contact">Contact Me For More Information</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h1>Gaming Video Editing</h1>
+                <p>Level up your <b>Gaming Videos</b> with expert editing, combining thrilling gameplay moments and immersive effects to keep viewers on the edge of their seats.</p>
+                <a href="#contact">Contact Me For More Information</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------posrtfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <!-- --------------portfolio--------------->
+        <div class="work-list">
+            <div class="work">
+                <img src="Thumbnail.jpg" >
+                <div class="layer">
+                    <h3>Cinematic</h3>
+                    <!-- <p>Cinematic Thumbnails For A Dramatic Look</p> -->
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="Valorant.jpg" >
+                <div class="layer">
+                    <h3>Gaming</h3>
+                    <!-- <p>Best Gaming Thumbnails For FPS Games Like Valorant, CSGO and Apex Legend</p> -->
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="Busniess Thumbnail.jpg" >
+                <div class="layer">
+                    <h3>Profession</h3>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+        
+            <div class="work">
+                <img src="Best Post 2.jpg" >
+                <div class="layer">
+                    <h3>Movie Posters</h3>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="BTS 2.0.jpg" >
+                <div class="layer">
+                    <h3>Fan Arts</h3>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <button href="" class="btn">See More</button>
+    </div>
+</div>
+<hr><br><br><br><br>
+<!-- -----------------------contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> harshpunhani023@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>+91 8054984055</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/tushar_punhani" target=”_blank” ><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UClFTb2nlHuZienCpOn_tT_g" target=”_blank” ><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/tusharrr.here/" target=”_blank” ><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Tushar Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <!-- -------------copyright-------------- -->
+    <div class="copyright">
+            <p>Copyright © 2024. Made with <i class="fa-solid fa-heart"></i> by Tushar Punhani</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+    }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyiaTVgKCegWWnpV6DxmByuXk29iLuqDG68u0hEwPWvr-KxhV37oa8DXQRmgHY9JEY0Qw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
